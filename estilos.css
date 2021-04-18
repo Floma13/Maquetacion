@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+#contenedor{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: #3573d6;
+    color: white;
+    height: 80px;
+}
+
+.logo{
+    text-transform: uppercase;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar{
+    margin-top: 8px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    text-align: right;
+    background: #1f3354;
+}
+
+.navbar ul li{
+    display: inline-block;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    background-color: #3573d6;
+    color: white;
+    
+}
+
+main{
+    width: 75%;
+    margin-bottom: 100%;
+}
+
+.destacado{
+    border: 15px solid grey;
+    border-bottom: none;
+    padding: 10px;
+}
+
+.destacado p{
+    padding-top: 10px;
+    height: 50px;
+}
+
+.titulos{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 5px;
+    row-gap: 30px;
+    border: 15px solid grey;
+    border-top: 10px solid grey;
+    padding: 10px;
+}
+
+.titulos p{
+    padding-top: 10px;
+    height: 100px;
+}
+
+.banner{
+    position: absolute;
+    right: 0px;
+    width: 20%;
+    background-color: #aaaaaa;
+    height: 40%;
+    top: 14%;
+    margin-right: 7.5%;
+}
+
+.banner p{
+    text-align: center;
+    padding-top: 15%;
+}
+   
+
