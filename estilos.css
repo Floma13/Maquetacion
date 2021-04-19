@@ -58,7 +58,6 @@ html{
 
 main{
     width: 75%;
-    margin-bottom: 100%;
 }
 
 .destacado{
@@ -102,5 +101,12 @@ main{
     text-align: center;
     padding-top: 15%;
 }
-   
+
+.footer p{
+    background-color: #94b4e7;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
 
